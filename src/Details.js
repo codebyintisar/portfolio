@@ -92,6 +92,66 @@ export const eduDetails = [
   },
 ];
 
+export const certifications = [
+  {
+    Position: "Web Components & Stencil.js",
+    Company: `Udemy`,
+    Location: "UC-47cc2662-5ea0-40a8-a517-4252a44938d1",
+    Type: "Issued Oct 2023",
+    Duration: "",
+  },
+  {
+    Position: "Introduction to Design Thinking",
+    Company: `Udemy`,
+    Location: "UC-03420388-b14a-43ac-96c9-720573620b05",
+    Type: "Issued Oct 2025",
+    Duration: "",
+  },
+  {
+    Position: "Node.js Essential Training: Web Servers, Tests, and Deployment",
+    Company: `LinkedIn`,
+    Location: "271e62d8d490caa5df87699bfc6143ff5d47ec6314b36568b43d61d3f8580c87",
+    Type: "Updated May 2024",
+    Duration: "",
+  },
+  {
+    Position: "Conscious Listening",
+    Company: `Udemy`,
+    Location: "UC-15b0e2be-12ed-4dda-9524-26c42a6fc61c",
+    Type: "Issued Sep 2022",
+    Duration: "",
+  },
+  {
+    Position: "Introduction to Artificial Intelligence (AI)",
+    Company: `IBM`,
+    Location: "QGXXFWYA82X6",
+    Type: "Issued May 2022",
+    Duration: "",
+  },
+  {
+    Position: "Introduction to Data Analytics",
+    Company: `Simplilearn`,
+    Location: "3864213",
+    Type: "Issued Sep 2022",
+    Duration: "",
+  },
+  {
+    Position: "Introduction to Front-End Development,Mobile Development & Back-End Development",
+    Company: `  Meta`,
+    Location: "DQ9CEALFPT55, N8S5PHQQCPWD, 2U4RA7CWQM8X",
+    Type: "Issued Feb 2023",
+    Duration: "",
+  },
+  {
+    Position: "The Non-Technical Skills of Effective Data Scientists",
+    Company: `Linkedin`,
+    Location: "2a8e967afa2152a80fede78cce7e71e8881ba8dcf9ffeb07b842c3764111313b",
+    Type: "Issued Feb 2024",
+    Duration: "",
+  },
+
+];
+
 // Tech Stack and Tools
 export const techStackDetails = {
   html: html,
@@ -118,57 +178,18 @@ export const techStackDetails = {
 // Enter your Project Details here
 export const projectDetails = [
   {
+    title: "AI Identity Verification System",
+    image: projectImage2,
+    description: `TEngineered an AI-powered identity verification system that combined identity card detection, data extraction, and face matching to validate user identity through computer vision-based verification workflows`,
+    techstack: "HTML/CSS, JavaScript, Nextjs, Tailwindcss, Tensorflow, TeachableMachine",
+    previewLink: "https://demo.yesid.io/",
+  },
+  {
     title: "SOFTVMS",
     image: projectImage1,
-    description: ``,
+    description: `Engineered a Visitor Management System that digitized visitor registration and access tracking through identity card scanning, automated time-in/time-out logging, visitor pass generation, and Morpho fingerprint integration for fast and secure repeat sign-ins`,
     techstack: "HTML/CSS, React, OpenCV",
-    previewLink: "https://google.com",
-    githubLink: "",
-  },
-  {
-    title: "Project title 2",
-    image: projectImage2,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 3",
-    image: projectImage3,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 4",
-    image: projectImage4,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 5",
-    image: projectImage5,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 6",
-    image: projectImage6,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    previewLink: "https://softnet.co.tz/softvms/",
   },
 ];
 

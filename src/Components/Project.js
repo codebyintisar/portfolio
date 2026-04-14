@@ -42,7 +42,7 @@ function Project({ title, image, description, techstack, previewLink, githubLink
               Live Preview
             </a>
           </div>
-          <div className="flex items-center">
+          {/* <div className="flex items-center">
             <svg
               className="dark:fill-light-heading fill-dark-heading inline-block min-w-fit"
               width="20"
@@ -66,7 +66,7 @@ function Project({ title, image, description, techstack, previewLink, githubLink
             >
               View Code
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </article>
