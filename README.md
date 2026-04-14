@@ -1,55 +1,86 @@
-# React Developer Portfolio template
-#### Live Demo https://react-portfolio-v1.netlify.app/
-#### Figma Design https://www.figma.com/community/file/1116246660507537002
-### Preview ( Dark Mode )
+# Intisar Codes Portfolio
 
-<img src="/preview.gif" alt="preview" width="600px" />
+A personal developer portfolio built with React to showcase my experience, projects, and skills in modern web development.
 
-## Follow Below instructions to add your deatils in the portfolio.
+## Live Demo
+[View Portfolio](https://your-live-link-here.com)
 
-### Change and customize every section according to your need, All you need to do is edit `/src/Details.js`
+## Preview
+Add a screenshot or GIF here if you want.
 
-#### Open `/src/Details.js` & modify it as per your need.
+```bash
+# example
 
-```javascript
-/ Enter your Personal Details here
-export const personalDetails = {
-  name: "Pavan MG",
-  tagline: "I build things for web",
-  img: profile,
-  about: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-  when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
-};
-
-// Enter your Social Media URLs here
-export const socialMediaUrl = {
-  linkdein: "https://www.linkedin.com/",
-  github: "https://www.github.com/",
-  twitter: "https://twitter.com/",
-  instagram: "https://www.instagram.com/",
-};
-
-// Enter your Work Experience here
-export const workDetails = [
-  {
-    Position: "Frontend Web Developer",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Full Time",
-    Duration: "Sep 2021 - Dec 2021",
-  }
-];
-
-// Enter your Education Details here
-export const eduDetails = { ... };
-
-// Tech Stack and Tools
-export const techStackDetails = { ... };
-
-// Enter your Project Details here
-export const projectDetails = [ ... ];
-
-// Enter your Contact Details here
-export const contactDetails = { ... };
 ```
+
+## Built With
+- React
+- JavaScript
+- CSS
+- Tailwind CSS (if applicable)
+
+## Features
+- Responsive personal portfolio website
+- About, experience, skills, and projects sections
+- Social links and contact section
+- Clean and modern UI
+- Easy content customization through a single details file
+
+## Project Structure
+Most portfolio content can be updated in:
+
+```bash
+/src/Details.js
+```
+
+This includes:
+- Personal details
+- Social media links
+- Work experience
+- Education
+- Skills and tools
+- Project details
+- Contact information
+
+## Getting Started
+
+### Clone the repository
+```bash
+git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
+cd YOUR_REPO
+```
+
+### Install dependencies
+```bash
+npm install
+```
+
+### Run locally
+```bash
+npm run dev
+```
+
+### Build for production
+```bash
+npm run build
+```
+
+## Customization
+To personalize the portfolio, open:
+
+```bash
+/src/Details.js
+```
+
+and update the exported objects with your own information.
+
+## Contact
+If you'd like to connect, feel free to reach out:
+
+- LinkedIn: https://linkedin.com/in/your-link
+- GitHub: https://github.com/your-username
+- Email: your-email@example.com
+
+## Acknowledgements
+This portfolio was customized from an open-source React portfolio template by Pavan MG:
+https://github.com/pavanmg007/react-developer-portfolio-template
